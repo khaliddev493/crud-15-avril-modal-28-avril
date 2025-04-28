@@ -95,7 +95,7 @@ nav ul li a:hover{
 .container h2 {
     font-size: 4rem;
     margin-bottom: 2rem;
-    color: violet;
+    color: rgb(238, 210, 100);
     letter-spacing:2px ;
 }
 
@@ -160,7 +160,7 @@ button:hover {
 }
 .card p{
     font-size: 1.2em;
-    color: #5c2cc3b6;
+    color: #7044cf5e;
     text-transform: capitalize;
     text-align: center;
     font-weight: 600;
@@ -185,14 +185,18 @@ button:hover {
     justify-content:center ;
     align-items: center;
     color: red;
-    font-size: 2.5em;
+    font-size: 2.2em;
+    font-weight: 600;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 30px;
     transition: 0.5s;
+    text-transform: uppercase;
   }
   
   #openModal:hover{
     transform: scale(1.2);
+    background: rgb(145, 209, 216);
+    color: white;
   }
   .modal-content {
     background-color: #d7cfa2;
@@ -211,4 +215,10 @@ button:hover {
   }
   .close:hover {
     color: #000000;
+  }
+
+  h1{
+    font-size: 2em;
+    color:firebrick;
+    text-transform: uppercase;
   }
